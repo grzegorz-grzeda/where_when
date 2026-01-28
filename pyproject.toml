@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "where_when"
-version = "0.0.4"
+version = "0.0.6"
 description = "CLI for showing what is happening right here, right now"
 readme = "README.md"
 license = { text = "MIT" }
@@ -18,8 +18,8 @@ classifiers = [
 dependencies = ["timezonefinder", "astral", "requests"]
 
 [project.urls]
-Homepage = "https://github.com/g2labs-grzegorz-grzeda/where_when"
-Issues = "https://github.com/g2labs-grzegorz-grzeda/where_when/issues"
+Homepage = "https://github.com/grzegorz-grzeda/where_when"
+Issues = "https://github.com/grzegorz-grzeda/where_when/issues"
 
 [project.scripts]
 where_when = "where_when:where_when_main"
