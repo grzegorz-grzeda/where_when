@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "where_when"
+version = "0.0.4"
+description = "CLI for showing what is happening right here, right now"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Grzegorz Grzęda", email = "grzegorz.grzeda@g2labs.pl" }]
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = ["timezonefinder", "astral", "requests"]
+
+[project.urls]
+Homepage = "https://github.com/g2labs-grzegorz-grzeda/where_when"
+Issues = "https://github.com/g2labs-grzegorz-grzeda/where_when/issues"
+
+[project.scripts]
+where_when = "where_when:where_when_main"

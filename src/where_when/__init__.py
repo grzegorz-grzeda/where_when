@@ -1,5 +1,7 @@
 # SPDX-FileCopyrightText: 2026 Grzegorz Grzęda
 # SPDX-License-Identifier: MIT
-from .right_now import main
+from .where_when import main
 
-main()
+
+def where_when_main():
+    main()
